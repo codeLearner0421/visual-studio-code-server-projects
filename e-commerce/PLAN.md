@@ -2,16 +2,34 @@
 
 ## How this works
 
-1. Pick the next step. Read its **Goal**, **Concepts**, and **Acceptance checks**.
-2. **You write the code.** No code comes from me unless you ask.
-3. Run the acceptance checks yourself first.
-4. Tell me the step is done. I review against the checks and your global review
-   rules: side-by-side comparison, the *why*, pros and cons, pitfalls.
-5. Ask anything at any point. Each step lists questions worth asking — they are
-   prompts, not a quiz.
+Each step has its own tutorial file next to the code, W3Schools-style:
 
-Steps are sized ~30–60 minutes. If one takes 3 hours, stop and ask — the step
-was probably hiding a concept that deserves its own explanation.
+```
+phase-01-http-from-scratch/
+├── step-1.1-accept-connection.md    ← concept + worked example + your turn
+├── step-1.2-parse-request-line.md
+├── ...
+└── HttpServer.java                  ← the file you edit
+```
+
+Per-step flow:
+
+1. Open the step's `.md` file.
+2. Read **The concept** and **Java pieces**.
+3. Read the **Worked example** — the runnable code.
+4. Run it, observe. Match against **What you should see**.
+5. Do the **Your turn** exercises — small modifications that teach one thing each.
+6. Tick the **Acceptance checks**.
+7. Ping me. I review your modified code against the checks and your global
+   review rules: side-by-side comparison, the *why*, pros and cons, pitfalls.
+8. Ask anything at any point. Each step lists **Questions worth asking** —
+   they're prompts, not a quiz.
+
+Steps are sized ~30–60 minutes. If one takes 3 hours, stop and ask.
+
+**Tutorials are written just-in-time**, one step ahead of where you are. That
+keeps them accurate to how you've actually been coding, not to plans that get
+stale.
 
 **Ground rule:** do not skip Phase 1. It is the only phase with no framework,
 and it is the reason the rest will make sense.

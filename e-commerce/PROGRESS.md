@@ -10,7 +10,7 @@ Status: `[ ]` not started · `[~]` in progress · `[x]` reviewed and done
 - [x] Project pinned to 21.0.8 via `.java-version`
 
 ## Phase 1 — HTTP From Scratch
-- [ ] 1.1 Accept a connection
+- [x] 1.1 Accept a connection
 - [ ] 1.2 Parse the request line
 - [ ] 1.3 Parse headers and body
 - [ ] 1.4 Write a valid response
