@@ -11,7 +11,7 @@ Status: `[ ]` not started · `[~]` in progress · `[x]` reviewed and done
 
 ## Phase 1 — HTTP From Scratch
 - [x] 1.1 Accept a connection
-- [ ] 1.2 Parse the request line
+- [x] 1.2 Parse the request line
 - [ ] 1.3 Parse headers and body
 - [ ] 1.4 Write a valid response
 - [ ] 1.5 Routing, 404, and 405
