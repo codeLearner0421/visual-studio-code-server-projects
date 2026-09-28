@@ -321,12 +321,12 @@ step, but that's why `Socket.setSoTimeout(millis)` exists.
 
 ## Acceptance checks
 
-- [ ] All headers print as key/value pairs (not raw lines).
-- [ ] Header lookup is case-insensitive — `Content-Type` and
+- [x] All headers print as key/value pairs (not raw lines).
+- [x] Header lookup is case-insensitive — `Content-Type` and
       `content-type` both retrieve the same value.
-- [ ] `curl -X POST localhost:8080/products -H 'Content-Type: application/json' -d '{"name":"Mouse"}'`
+- [x] `curl -X POST localhost:8080/products -H 'Content-Type: application/json' -d '{"name":"Mouse"}'`
       prints the body **exactly**, no missing or extra characters.
-- [ ] A `GET` with no body does **not** hang waiting for one — logs
+- [x] A `GET` with no body does **not** hang waiting for one — logs
       `body: (none — no Content-Length header)` and moves on.
 
 ---
